@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thinkful | Shopping List App</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet'>
+	  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet'>
+    <!--Icon Fonts Styles-->
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--Reset Styles-->
+    <link href="css/reset.css" rel="stylesheet">
+    <!--Theme Styles-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <ul  class="banner">
+        	   <li><img class="cart" src="images/cart.png" alt="Shopping Cart Lady" width="125px"></li>
+               <li><h1>My Shopping List</h1></li>
+            </ul>
+        </div>  
+    </header>
+    <section class="shop">
+	    <div class="content">
+            <h1>I need </h1>
+            <input class="item" id="addbox" type="text" placeholder="add items here">
+            <button type="submit" id="submit-item" class="add"><i class="fa fa-cart-plus"></i></button>
+      </div>
+      <div class="content list">
+        <ul class="items-list">
+          <li class="items active">
+            <span>Tea</span>
+            <div class="item-remove"><span><i class="fa fa-trash"></i></span></div> 
+            <div class="item-bought"><span ><i class="fa fa-check"></i></span></div>
+          </li>
+          <li class="items active">
+            <span>Coffee</span>
+            <div class="item-remove"><span><i class="fa fa-trash"></i></span></div> 
+            <div class="item-bought"><span ><i class="fa fa-check"></i></span></div>
+          </li>
+          <li class="items active">
+            <span>Eggs</span>
+            <div class="item-remove"><span><i class="fa fa-trash"></i></span></div> 
+            <div class="item-bought"><span ><i class="fa fa-check"></i></span></div>
+          </li>
+          <li class="items active">
+            <span>Kale</span>
+            <div class="item-remove"><span><i class="fa fa-trash"></i></span></div> 
+            <div class="item-bought"><span ><i class="fa fa-check"></i></span></div>
+          </li>
+          <li class="items active">
+            <span>Beans</span>
+            <div class="item-remove"><span><i class="fa fa-trash"></i></span></div> 
+            <div class="item-bought"><span ><i class="fa fa-check"></i></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+</body>
+</html>
