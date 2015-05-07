@@ -57,21 +57,26 @@ header .banner > li {
     background-image: url('../images/pantry_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 100%;
     overflow: auto;
 }
-.shop h1,
-.shop h3 {
+.shop h1 {
     color: black;
     text-align: center;
-}
-.shop h1 {
     display: inline-block;
     margin-top: 14.5rem;
     margin-left: 12rem;
     font-family: 'The Girl Next Door', cursive;
     font-size: 2.125rem;
 }
+span.refresh{
+    position: relative;
+    top: 25px;
+    left: -120px;
+    float: right;
+    color: #386890;
+}
+
 input.item{
     display: inline-block;
     width: 450px;   
@@ -79,8 +84,8 @@ input.item{
     margin-left: 0px;   
     /* padding-bottom: 17px; */   
     border-style: none none dashed;   
-    /* border-width: 1px; */   
-    border-color: #9c9c9c;
+    /* border-width: 1px;   
+    border-color: #9c9c9c;*/ 
     text-align: center;
     font-family: 'The Girl Next Door', cursive;
     background: rgba(255, 255, 255, 0.1);
