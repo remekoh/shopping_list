@@ -57,7 +57,7 @@ header .banner > li {
     background-image: url('../images/pantry_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    vh: 100%;
     overflow: auto;
 }
 .shop h1 {
@@ -141,10 +141,10 @@ li.items{
 .active{
     border-top: 3px solid #ce6d27;
 }
-.done{
+.bought{
     border-top: 5px solid grey;
 }
-li.done > span{
+li.bought > span{
     text-decoration: line-through;
 }
 li.items:after{
